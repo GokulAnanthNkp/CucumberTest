@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="26.439698">
+    <testcase classname="Credit Card Validator" name="" time="8.897754">
+        <system-out><![CDATA[Given user in homepage......................................................passed
+When user enters the pan no "APPXA2244X"....................................passed
+Then credit card is "eligible"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Validator" name="" time="10.023813">
+        <system-out><![CDATA[Given user in homepage......................................................passed
+When user enters the pan no "AXVPS7766V"....................................passed
+Then credit card is "not eligible"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Credit Card Validator" name="" time="7.518131">
+        <system-out><![CDATA[Given user in homepage......................................................passed
+When user enters the pan no "AZERF9654R"....................................passed
+Then credit card is "Invalid"...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

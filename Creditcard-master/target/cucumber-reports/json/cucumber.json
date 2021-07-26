@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "credit-card-validator;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7613852542,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in homepage",
+            "match": {
+              "location": "StepDefinition.user_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324290697,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the pan no \"APPXA2244X\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "APPXA2244X",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enters_the_pan_no(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 959610700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "credit card is \"eligible\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eligible",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.credit_card_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "credit-card-validator;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9280261185,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user in homepage",
+            "match": {
+              "location": "StepDefinition.user_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258406493,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the pan no \"AXVPS7766V\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AXVPS7766V",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enters_the_pan_no(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 485145275,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "credit card is \"not eligible\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "not eligible",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.credit_card_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "",
+        "description": "",
+        "id": "credit-card-validator;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7049659170,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user in homepage",
+            "match": {
+              "location": "StepDefinition.user_in_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227526270,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters the pan no \"AZERF9654R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AZERF9654R",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.user_enters_the_pan_no(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240945160,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "credit card is \"Invalid\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.credit_card_is(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Credit Card Validator",
+    "description": "Feature file to check credit card issue based on pan credit score",
+    "id": "credit-card-validator",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
